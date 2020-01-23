@@ -1,0 +1,429 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    align-content: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 140px;
+    width: 100%;
+    border-bottom: solid 1px #6d4346;
+    box-shadow: 1px 1px 2px 1px;
+    background: url(https://cdn4.vectorstock.com/i/1000x1000/70/28/abstract-squares-seamless-pattern-vector-947028.jpg);
+    background-size: auto;
+}
+#logo-image{
+    height: 125px;
+    width: 250px;
+background-color:transparent;
+}
+.nav-bouton{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.lien{
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    border: solid 2px;
+    padding: 5px;
+    border-radius: 70px;
+}
+/*Css animation*/
+.animation{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #fff;
+}
+.conteneur{
+    display: flex;
+    flex-direction: column;
+} 
+.barre_recherche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    align-self: center;
+    border: 1px solid transparent;
+    height: 360px;
+    background-image:url(https://github.com/addamou/backgro/blob/master/maisonluxe2.jpg?raw=true);
+    background-size: cover;
+    border-radius: 10px;
+/*
+    -webkit-animation-name: barre_recherche;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: barre_recherche;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-direction: normal;
+
+    animation-name: barre_recherche;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;*/
+}
+@-webkit-keyframes barre_recherche{
+    0%{background-image: url(https://github.com/addamou/mes-icons/blob/master/image1.jpg?raw=true);}
+    30%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxe.jpg?raw=true);}
+    60%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxe2.jpg?raw=true);}
+    80%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxe3.jpg?raw=true);}
+    100%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxe4.jpg?raw=true);}  
+}
+#search{
+    width: 35%;  
+    height: 40px;
+    border-radius: 50px;
+    border: solid 1px transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.bouton{
+    height: 35px;
+    width: 100px;
+    background-color: #f22630;
+    font-size: 15px;
+    color: #fff;
+    border: solid 1px #b70c15;
+    border-radius: 40%;
+}
+.catalogue{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-top: 80px;
+    width: 90%;
+}
+.catalogues{
+    width: 450px;
+    height: 320px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+/*CSS diapo1*/
+.maison1{
+    height: 89%;
+    width: 100%;
+    background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage1.jpg?raw=true);
+    background-size: cover;
+
+    -webkit-animation-name: maison1;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: maison1;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-direction: normal;
+
+    animation-name: maison1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes maison1{
+    0%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage1.jpg?raw=true);}
+    33%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage2.jpg?raw=true);}
+    55%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage3.jpg?raw=true);}
+    77%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage4.jpg?raw=true);}
+    100%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage5.jpg?raw=true);}  
+}
+/*Css diapo2*/
+.maison2{
+    height: 89%;
+    width: 100%;
+    border: solid 1px rebeccapurple;
+    background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa1.jpg?raw=true);
+    background-size: cover;
+
+    -webkit-animation-name: maison2;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: maison2;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-direction: normal;
+
+    animation-name: maison2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes maison2{
+    0%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa1.jpg?raw=true);}
+    33%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa2.jpg?raw=true);}
+    55%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa3.jpeg?raw=true);}
+    77%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa4.jpg?raw=true);}
+    100%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa5.jpg?raw=true);}  
+}
+/*Css diapo3*/
+.maison3{
+    height: 89%;
+    width: 100%;
+    border: solid 1px rebeccapurple;
+    background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia1.jpg?raw=true);
+    background-size: cover;
+
+    -webkit-animation-name: maison3;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: maison3;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-direction: normal;
+
+    animation-name: maison3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes maison3{
+    0%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia1.jpg?raw=true);}
+    33%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia2.jpg?raw=true);}
+    55%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia3.jpg?raw=true);}
+    77%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia4.jpg?raw=true);}
+    85%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia5.jpg?raw=true);}
+    110%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia6.jpg?raw=true);} 
+}
+/*Css diapo4*/
+.maison4{
+    height: 89%;
+    width: 100%;
+    border: solid 1px rebeccapurple;
+    background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson1.jpg?raw=true);
+    background-size: cover;
+
+    -webkit-animation-name: maison4;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: maison4;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-direction: normal;
+
+    animation-name: maison4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes maison4{
+    0%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson1.jpg?raw=true);}
+    33%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson2.jpg?raw=true);}
+    55%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson3.jpg?raw=true);}
+    77%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson4.jpg?raw=true);}
+    100%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson5.png?raw=true);}  
+}
+/*Css contenant du lien info*/
+.info{
+    background-color: #a8c7e7;
+    height: 10%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    background-image:url(https://github.com/addamou/backgro/blob/master/maisonluxe2.jpg?raw=true);
+    background-size: cover;
+}
+/*Css du lien*/
+.lien-catalogue{
+    text-decoration: none;
+    color: #fff; 
+}
+/*Css procdure*/
+.procedure{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #8e929c;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    background-image:url(https://cdn2.vectorstock.com/i/1000x1000/99/91/blue-tech-squares-abstract-geometric-background-vector-22379991.jpg);
+    background-size: cover;
+}
+.procedure-selection{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    height: 220px;
+    width: 200px;
+}
+h3{
+    color: #011569;
+    font-weight: bold;
+}
+/*Css footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e05760;
+    
+}
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer_top-liste{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+}
+.lien-footer{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;
+    color: #fff;
+}
+.footer-midlfe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.footer-icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+h5{
+    text-decoration-line: underline;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ce3941;
+}
+.footer{ position:relative; bottom:0; }
+/*Css page contact*/
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: solid 1px brown;
+    background: url(https://media.istockphoto.com/vectors/vintage-template-background-design-vector-id671331088);
+}
+#input-contat{
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    border: solid 1px #ce3941;
+    border-radius: 15px;
+}
+.contact-page{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 50px;
+}
+#input-contat_text{
+    text-align: center;
+    height: 600px;
+    width: 700px;
+    border: solid 1px #ce3941;
+    border-radius: 15px;
+}
+.contact-btn{
+    width: 100px;
+    height: 30px;
+    background-color: #067a0b;
+    float: right;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: solid 3px #067a0b;
+    color: #fff;
+}
+.inscription{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 700px;
+}
+#inscription{
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+    border: solid 1px #ce3941;
+    border-radius: 15px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#genre{
+    margin: 20px;
+    margin-right: 5px;
+}
+#Status{
+    margin: 20px;
+    margin-right: 5px;
+}
+#selecteur{
+    height: 30px;
+    width: 170px;
+}
+.inscrip-btn{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #07770c;
+    background-color:  #06940f;
+    border-radius: 10px;
+    margin: 30px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
