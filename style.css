@@ -12,7 +12,7 @@ body{
     width: 100%;
     border-bottom: solid 1px #6d4346;
     box-shadow: 1px 1px 2px 1px;
-    background: url(https://cdn4.vectorstock.com/i/1000x1000/70/28/abstract-squares-seamless-pattern-vector-947028.jpg);
+    background: url("images/nav.jpg");
     background-size: auto;
 }
 #logo-image{
@@ -29,9 +29,14 @@ background-color:transparent;
     font-size: 20px;
     text-decoration: none;
     margin-right: 20px;
-    border: solid 2px;
+    border: solid 2px #238689;
+    color: #e50412;
     padding: 5px;
     border-radius: 70px;
+}
+.lien:hover{
+    background-color: #238689;
+    color: #fff;
 }
 /*Css animation*/
 .animation{
@@ -55,7 +60,7 @@ background-color:transparent;
     align-self: center;
     border: 1px solid transparent;
     height: 360px;
-    background-image:url(https://github.com/addamou/backgro/blob/master/maisonluxe2.jpg?raw=true);
+    background-image:url(images/barre_recherche.jpg);
     background-size: cover;
     border-radius: 10px;
 /*
@@ -78,11 +83,11 @@ background-color:transparent;
     animation-direction: normal;*/
 }
 @-webkit-keyframes barre_recherche{
-    0%{background-image: url(https://github.com/addamou/mes-icons/blob/master/image1.jpg?raw=true);}
-    30%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxe.jpg?raw=true);}
-    60%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxe2.jpg?raw=true);}
-    80%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxe3.jpg?raw=true);}
-    100%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxe4.jpg?raw=true);}  
+    0%{background-image: url(https://github.com/addamou/mes-icons/blob/master/imageimages/radisson-2.jpg);}
+    30%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluximages/radisson-2.jpg);}
+    60%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxeimages/radisson-2.jpg);}
+    80%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxeimages/radisson-2.jpg);}
+    100%{background-image: url(https://github.com/addamou/backgro/blob/master/maisonluxeimages/radisson-2.jpg);}  
 }
 #search{
     width: 35%;  
@@ -100,8 +105,11 @@ background-color:transparent;
     background-color: #f22630;
     font-size: 15px;
     color: #fff;
-    border: solid 1px #b70c15;
+    border: solid 1px #238689;
     border-radius: 40%;
+}
+.bouton:hover{
+    background-color: #238689;
 }
 .catalogue{
     display: flex;
@@ -124,7 +132,7 @@ background-color:transparent;
 .maison1{
     height: 89%;
     width: 100%;
-    background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage1.jpg?raw=true);
+    background-image: url(images/maison_1-1.jpg);
     background-size: cover;
 
     -webkit-animation-name: maison1;
@@ -147,18 +155,17 @@ background-color:transparent;
 }
 
 @-webkit-keyframes maison1{
-    0%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage1.jpg?raw=true);}
-    33%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage2.jpg?raw=true);}
-    55%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage3.jpg?raw=true);}
-    77%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage4.jpg?raw=true);}
-    100%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/etage5.jpg?raw=true);}  
+    0%{background-image: url(images/maison_1-1.jpg);}
+    33%{background-image: url(images/maison_1-2.jpg);}
+    55%{background-image: url(images/maison_1-3.jpg);}
+    77%{background-image: url(images/maison_1-4.jpg);}
+    100%{background-image: url(images/maison_1-5.jpg);}  
 }
 /*Css diapo2*/
 .maison2{
     height: 89%;
     width: 100%;
-    border: solid 1px rebeccapurple;
-    background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa1.jpg?raw=true);
+    background-image: url(images/maison_2-1.jpg);
     background-size: cover;
 
     -webkit-animation-name: maison2;
@@ -181,18 +188,17 @@ background-color:transparent;
 }
 
 @-webkit-keyframes maison2{
-    0%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa1.jpg?raw=true);}
-    33%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa2.jpg?raw=true);}
-    55%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa3.jpeg?raw=true);}
-    77%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa4.jpg?raw=true);}
-    100%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/villa5.jpg?raw=true);}  
+    0%{background-image: url(images/maison_2-1.jpg);}
+    33%{background-image: url(images/maison_2-2.jpg);}
+    55%{background-image: url(images/maison_2-3.jpeg);}
+    77%{background-image: url(images/maison_2-4.jpg);}
+    100%{background-image: url(images/maison_2-5.jpg);}  
 }
 /*Css diapo3*/
 .maison3{
     height: 89%;
     width: 100%;
-    border: solid 1px rebeccapurple;
-    background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia1.jpg?raw=true);
+    background-image: url(images/bravia-1.jpg);
     background-size: cover;
 
     -webkit-animation-name: maison3;
@@ -215,19 +221,18 @@ background-color:transparent;
 }
 
 @-webkit-keyframes maison3{
-    0%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia1.jpg?raw=true);}
-    33%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia2.jpg?raw=true);}
-    55%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia3.jpg?raw=true);}
-    77%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia4.jpg?raw=true);}
-    85%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia5.jpg?raw=true);}
-    110%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/bravia6.jpg?raw=true);} 
+    0%{background-image: url(images/bravia-1.jpg);}
+    33%{background-image: url(images/bravia-2.jpg);}
+    55%{background-image: url(images/bravia-3.jpg);}
+    77%{background-image: url(images/bravia-4.jpg);}
+    85%{background-image: url(images/bravia-5.jpg);}
+    110%{background-image: url(images/bravia-6.jpg);} 
 }
 /*Css diapo4*/
 .maison4{
     height: 89%;
     width: 100%;
-    border: solid 1px rebeccapurple;
-    background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson1.jpg?raw=true);
+    background-image: url(images/RBlu-Niamey-Extrerior-1.jpg);
     background-size: cover;
 
     -webkit-animation-name: maison4;
@@ -250,11 +255,12 @@ background-color:transparent;
 }
 
 @-webkit-keyframes maison4{
-    0%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson1.jpg?raw=true);}
-    33%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson2.jpg?raw=true);}
-    55%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson3.jpg?raw=true);}
-    77%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson4.jpg?raw=true);}
-    100%{background-image: url(https://github.com/addamou/photo_maisons/blob/master/radisson5.png?raw=true);}  
+    0%{background-image: url(images/RBlu-Niamey-Extrerior-1.jpg);}
+    33%{background-image: url(images/radisson-2.jpg);}
+    55%{background-image: url(images/radisson-3.jpg);}
+    77%{background-image: url(images/radisson-4.jpg);}
+    100%{background-image: url(images/radisson-5.jpg);}
+    110%{background-image: url(images/radisson-6.jpg);}   
 }
 /*Css contenant du lien info*/
 .info{
@@ -264,7 +270,7 @@ background-color:transparent;
     font-size: 18px;
     font-weight: bold;
     align-items: center;
-    background-image:url(https://github.com/addamou/backgro/blob/master/maisonluxe2.jpg?raw=true);
+    background-image:url(https://github.com/addamou/backgro/blob/master/maisonluxeimages/radisson-2.jpg);
     background-size: cover;
 }
 /*Css du lien*/
@@ -280,13 +286,13 @@ background-color:transparent;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 40px;
-    background-image:url(https://cdn2.vectorstock.com/i/1000x1000/99/91/blue-tech-squares-abstract-geometric-background-vector-22379991.jpg);
+    background-image:url(images/image-3.jpg);
     background-size: cover;
 }
 .procedure-selection{
     display: flex;
     flex-direction: column;
-    border: solid 2px black;
+    border: solid 2px #00787a;
     margin: 15px;
     text-align: center;
     padding: 10px;
