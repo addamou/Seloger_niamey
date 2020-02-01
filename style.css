@@ -383,7 +383,7 @@ h5{
     margin: 10px;
     border: solid 1px #ce3941;
     border-radius: 15px;
-    margin-left: 2rem;
+    align-items: center;
 }
 .contact-page{
     display: flex;
@@ -395,8 +395,7 @@ h5{
     text-align: center;
     height: 22rem;
     float: center;
-    width: 14rem;
-    margin-left: 1.5rem;
+    width: 14rem; 
     border: solid 1px #ce3941;
     border-radius: 15px;
 }
