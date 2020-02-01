@@ -370,9 +370,9 @@ h5{
     background: url(https://media.istockphoto.com/vectors/vintage-template-background-design-vector-id671331088);
 }
 #input-contat{
-    width: 300px;
-    height: 30px;
-    margin: 20px;
+    width: 7rem;
+    height: 20px;
+    margin: 10px;
     border: solid 1px #ce3941;
     border-radius: 15px;
 }
@@ -384,8 +384,10 @@ h5{
 }
 #input-contat_text{
     text-align: center;
-    height: 600px;
-    width: 700px;
+    height: 22rem;
+    float: center;
+    width: 15rem;
+    margin-left: 0.1rem;
     border: solid 1px #ce3941;
     border-radius: 15px;
 }
@@ -393,20 +395,21 @@ h5{
     width: 100px;
     height: 30px;
     background-color: #067a0b;
-    float: right;
+    float: center;
     margin-top: 30px;
     border-radius: 7px;
     border: solid 3px #067a0b;
     color: #fff;
 }
+/*css page d'inscription*/
 .inscription{
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 700px;
+    width: 100%;
 }
 #inscription{
-    width: 500px;
+    width: 15rem;
     height: 30px;
     margin: 10px;
     border: solid 1px #ce3941;
@@ -435,7 +438,7 @@ h5{
     border-radius: 10px;
     margin: 30px;
     color: #fff;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: bold;
 }
 @media screen and (max-widht: 640px) {
