@@ -202,7 +202,7 @@ body{
 .maison3{
     height: 89%;
     width: 100%;
-    background-image: url(images/bravia-1.jpg);
+    background-image: url(images/maison_3-1.jpg);
     background-size: cover;
 
     -webkit-animation-name: maison3;
@@ -225,12 +225,12 @@ body{
 }
 
 @-webkit-keyframes maison3{
-    0%{background-image: url(images/bravia-1.jpg);}
-    33%{background-image: url(images/bravia-2.jpg);}
-    55%{background-image: url(images/bravia-3.jpg);}
-    77%{background-image: url(images/bravia-4.jpg);}
-    85%{background-image: url(images/bravia-5.jpg);}
-    110%{background-image: url(images/bravia-6.jpg);} 
+    0%{background-image: url(images/maison_3-1.jpg);}
+    33%{background-image: url(images/maison_3-2.jpg);}
+    55%{background-image: url(images/maison_3-3.jpg);}
+    77%{background-image: url(images/maison_3-4.jpg);}
+    85%{background-image: url(images/maison_3-5.jpg);}
+    110%{background-image: url(images/maison_3-6.jpg);} 
 }
 /*Css diapo4*/
 .maison4{
