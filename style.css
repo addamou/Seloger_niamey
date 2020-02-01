@@ -369,12 +369,21 @@ h5{
     border: solid 1px brown;
     background: url(https://media.istockphoto.com/vectors/vintage-template-background-design-vector-id671331088);
 }
+.page-input{
+    display: flex;
+    flex-direction: column;
+    border: double 9px #1f1fef;
+    background-color: #e05760;
+    border-radius: 2%;
+    padding: 1.2rem;
+}
 #input-contat{
-    width: 7rem;
+    width: 12rem;
     height: 20px;
     margin: 10px;
     border: solid 1px #ce3941;
     border-radius: 15px;
+    margin-left: 2rem;
 }
 .contact-page{
     display: flex;
@@ -386,8 +395,8 @@ h5{
     text-align: center;
     height: 22rem;
     float: center;
-    width: 15rem;
-    margin-left: 0.1rem;
+    width: 14rem;
+    margin-left: 1.5rem;
     border: solid 1px #ce3941;
     border-radius: 15px;
 }
@@ -395,7 +404,7 @@ h5{
     width: 100px;
     height: 30px;
     background-color: #067a0b;
-    float: center;
+    float: right;
     margin-top: 30px;
     border-radius: 7px;
     border: solid 3px #067a0b;
